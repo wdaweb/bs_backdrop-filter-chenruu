@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('https://picsum.photos/2048/1920/?random=1');
+}
+.backdrop{
+  backdrop-filter: none
+}
+.backdrop1{
+  backdrop-filter: grayscale(1)
+}
+.backdrop2{
+  backdrop-filter: brightness(1.5)
+}
+.backdrop3{
+  backdrop-filter: blur(5px)
+}
+.backdrop4{
+  backdrop-filter: contrast(0.8)
+}
+.backdrop5{
+  backdrop-filter: invert(0.7)
+}
+.backdrop6{
+  backdrop-filter: opacity(0.4)
+}
+.backdrop7{
+  backdrop-filter: sepia(0.4)
+}
+.backdrop8{
+  backdrop-filter: saturate(1.8)
+}
+.backdrop9{
+  backdrop-filter: hue-rotate(120deg)
+}
+
+
+@media(max-width:768px){
+  .sh{
+    height: 150px;
+    width: 400px;
+  }
+  .m{
+    margin-top: 50px;
+  }
+
+  .bordertop{
+    border-radius: 10px 10px 0 0;
+  }
+} 
+@media(min-width: 768px){
+  .h{
+    height: 400px;
+    width: 300px;
+  }
+
+  .flex-md-fill {
+    min-width: 300px;
+  } 
+  .borderleft{
+    border-radius: 10px 0 0 10px;
+  }
+  .mt{
+    margin-left: 50px;
+  }
+}
+
